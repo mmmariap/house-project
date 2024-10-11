@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Общие стили*/ 
+
+html {
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: "Raleway", system-ui;
+    background-color: #F4F6F5;
+    color: #2C2D35;
+    font-weight: 500;
+}
+
+a {
+    color: #2C2D35;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Header */ 
+
+.header {
+    padding: 31px;
+    background-color: #E1EDE6;
+}
+
+.container__header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left {
+    display: flex;
+    gap: 60px;
+}
+
+.header__list{
+    display: flex;
+    gap: 60px;
+}
+
+.header__nav a {
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.header__nav a:hover {
+    color: #598D66;
+}
