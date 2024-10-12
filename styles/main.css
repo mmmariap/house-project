@@ -65,3 +65,12 @@ ul {
 .header__nav a:hover {
     color: #598D66;
 }
+
+.cart svg path{
+    stroke: #2C2D35;
+    transition: stroke 0.3s;
+}
+
+.cart:hover svg path{
+    stroke: #598D66;
+}
