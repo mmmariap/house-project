@@ -36,8 +36,6 @@ ul {
 
 h1 {
     font-weight: 500;
-    font-size: 60px;
-    line-height: 66px;
 }
 
 .btn {
@@ -68,7 +66,7 @@ h1 {
     background-color: #E1EDE6;
 }
 
-.container__header{
+.header__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -106,5 +104,29 @@ h1 {
 
 .grid {
     display: grid;
-    grid-template-columns: 555px 555px;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 30px;
+}
+
+.hero__image {
+    grid-column: 6 span;
+}
+
+.hero__content {
+    grid-column: 6 span;
+}
+
+.hero__description {
+    color: #86928B;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+span {
+    color:#598D66;
+}
+
+.hero__title {
+    font-size: 60px;
+    line-height: 66px;
 }
