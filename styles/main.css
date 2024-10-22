@@ -34,7 +34,7 @@ ul {
     margin: 0 auto;
 }
 
-h1 {
+h1, h2 {
     font-weight: 500;
 }
 
@@ -114,19 +114,26 @@ h1 {
 
 .hero__content {
     grid-column: 6 span;
+    padding-top: 145px;
+}
+
+.hero__title {
+    font-size: 60px;
+    line-height: 66px;
+    
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .hero__description {
     color: #86928B;
     font-size: 18px;
     line-height: 27px;
+
+    margin-bottom: 60px;
 }
 
 span {
     color:#598D66;
 }
 
-.hero__title {
-    font-size: 60px;
-    line-height: 66px;
-}
